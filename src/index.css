@@ -13,3 +13,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display: flex;
+  padding: 30px;
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+.score-board {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  font-style: 36px;
+  margin-left: 50px;
+  border: 1px solid #000;
+}
