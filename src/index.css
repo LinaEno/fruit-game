@@ -14,9 +14,23 @@ code {
     monospace;
 }
 
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 .app {
   display: flex;
-  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  gap: 30px;
+  @media screen and (max-width: 767px) {
+    justify-content: start;
+  }
 }
 
 .game {
@@ -24,19 +38,47 @@ code {
   height: 560px;
   display: flex;
   flex-wrap: wrap;
+  @media screen and (max-width: 767px) {
+    width: 280px;
+    height: 280px;
+  }
 }
 
 .game img {
   width: 70px;
   height: 70px;
+  @media screen and (max-width: 767px) {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 .score-board {
   width: 200px;
-  height: 150px;
   padding: 20px;
   text-align: center;
   font-style: 36px;
-  margin-left: 50px;
-  border: 1px solid #000;
+  color: #00eeff;
+  border: 1px solid #00eeff;
+  @media screen and (max-width: 767px) {
+    margin-top: 50px;
+  }
+}
+
+.score-board {
+  animation: hueRotate 6s ease-in-out 3s infinite;
+}
+
+@keyframes hueRotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(-120deg);
+  }
+
+  100% {
+    filter: hue-rotate(0deg);
+  }
 }

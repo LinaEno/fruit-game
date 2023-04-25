@@ -191,6 +191,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <ScoreBoard score={scoreDisplay} />
       <div className="game">
         {currentFruit.map((fruit, idx) => (
           <img
@@ -209,7 +210,6 @@ const App = () => {
           />
         ))}
       </div>
-      <ScoreBoard score={scoreDisplay} />
     </div>
   );
 };
