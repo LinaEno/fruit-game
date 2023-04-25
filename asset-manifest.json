@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fruit-game/static/css/main.435f111b.css",
-    "main.js": "/fruit-game/static/js/main.8b9d05fd.js",
+    "main.css": "/fruit-game/static/css/main.a1ed9601.css",
+    "main.js": "/fruit-game/static/js/main.4752ff7e.js",
     "static/media/kiwi.png": "/fruit-game/static/media/kiwi.1b3158dbb4ce99ddb80d.png",
     "static/media/tangerine.png": "/fruit-game/static/media/tangerine.d9ef09c3dda8c6c840b1.png",
     "static/media/banana.png": "/fruit-game/static/media/banana.03a2aa2ec33ecb2b93ea.png",
@@ -9,11 +9,11 @@
     "static/media/square.png": "/fruit-game/static/media/square.aabce9204fb73d3a66ad.png",
     "static/media/pear.png": "/fruit-game/static/media/pear.9794c8516be487634a92.png",
     "index.html": "/fruit-game/index.html",
-    "main.435f111b.css.map": "/fruit-game/static/css/main.435f111b.css.map",
-    "main.8b9d05fd.js.map": "/fruit-game/static/js/main.8b9d05fd.js.map"
+    "main.a1ed9601.css.map": "/fruit-game/static/css/main.a1ed9601.css.map",
+    "main.4752ff7e.js.map": "/fruit-game/static/js/main.4752ff7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.435f111b.css",
-    "static/js/main.8b9d05fd.js"
+    "static/css/main.a1ed9601.css",
+    "static/js/main.4752ff7e.js"
   ]
 }
